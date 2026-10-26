@@ -5,3 +5,5 @@ class Solution:
             if target-n in dct:
                 return [dct[target-n],i]
             dct[n]=i
+        return None
+        
